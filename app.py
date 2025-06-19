@@ -16,8 +16,8 @@ import time
 app = Flask(__name__)
 
 # LINE Bot 設定 - 從環境變數讀取
-LINE_CHANNEL_ACCESS_TOKEN = os.environ.get('LINE_CHANNEL_ACCESS_TOKEN', '6WgkudGgMYfahoYD5jbkHOG93PVQhLZp7O7r1U97iWkmFDdU9o2wzxo+fLhbcefwJTG1dp0q9LCDkXqpLSQuHbsIMn4XwFBOdEkPaKlAaUfru2Z2fWpEK1TtanZTHIovgct39yhZRIGBZou6Gsm4xgdB04t89/1O/w1cDnyilFU=')
-LINE_CHANNEL_SECRET = os.environ.get('LINE_CHANNEL_SECRET', '8a9a2fc3a64c58dd7992dd3152d9e44e')
+LINE_CHANNEL_ACCESS_TOKEN = os.environ.get('LINE_CHANNEL_ACCESS_TOKEN', 'YOUR_CHANNEL_ACCESS_TOKEN')
+LINE_CHANNEL_SECRET = os.environ.get('LINE_CHANNEL_SECRET', 'YOUR_CHANNEL_SECRET')
 
 # LINE API URLs
 LINE_API_REPLY = 'https://api.line.me/v2/bot/message/reply'
